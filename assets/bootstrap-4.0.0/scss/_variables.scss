@@ -40,8 +40,8 @@ $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$yellow:  #ffa00f !default;
+$green:   #0dde9e !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
@@ -123,7 +123,10 @@ $spacers: map-merge((
   2: ($spacer * .5),
   3: $spacer,
   4: ($spacer * 1.5),
-  5: ($spacer * 3)
+  5: ($spacer * 3),
+  6: ($spacer * 6),
+  7: ($spacer * 8),
+  8: ($spacer * 12)
 ), $spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -649,7 +652,7 @@ $pagination-disabled-border-color:  $gray-300 !default;
 
 // Jumbotron
 
-$jumbotron-padding:                 2rem !default;
+$jumbotron-padding:                 1rem !default;
 $jumbotron-bg:                      $gray-200 !default;
 
 

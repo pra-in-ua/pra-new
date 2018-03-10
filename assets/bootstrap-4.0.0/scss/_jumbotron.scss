@@ -2,7 +2,8 @@
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
   background-color: $jumbotron-bg;
-  @include border-radius($border-radius-lg);
+  background-image: url("/assets/images/home/screen.png");
+  background-size: cover;
 
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
