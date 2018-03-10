@@ -13,7 +13,7 @@
 				<a href="#" class="btn btn-block btn-info">Волонтерам</a>
 			</div>
 		</div>
-		<div class="row justify-content-md-center">
+		<div class="row justify-content-md-center pt-4">
 			<div class="col col-lg-2">
 				<a href="#" class="btn btn-block btn-secondary">Бібліотека</a>
 			</div>

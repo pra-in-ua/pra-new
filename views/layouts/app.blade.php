@@ -27,7 +27,7 @@
 				</li>
 			</ul>
 
-			<a href="#" class="btn btn-sm btn-outline-success">Підтримати проект</a>
+			<a href="#" class="btn btn-sm btn-outline-success mr-1">Підтримати проект</a>
 			<a href="#" class="btn btn-sm btn-outline-warning">Увійти</a>
 		</div>
 	</div>
