@@ -3,6 +3,7 @@
   margin-bottom: $jumbotron-padding;
   background-color: $jumbotron-bg;
   background-image: url("/assets/images/home/screen.png");
+  background-position: center center;
   background-size: cover;
 
   @include media-breakpoint-up(sm) {
