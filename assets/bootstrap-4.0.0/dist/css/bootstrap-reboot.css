@@ -39,6 +39,12 @@ body {
   background-color: #fff;
 }
 
+@media (max-width: 992px) {
+  body {
+    padding-top: 4rem;
+  }
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }

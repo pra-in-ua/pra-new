@@ -3,7 +3,9 @@
 @section('app')
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 	<div class="container">
-		<a class="navbar-brand" href="#">Pra.in.ua</a>
+		<a class="navbar-brand" href="#">
+			<img src="/assets/images/global/logo.png" width="80" alt="">
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -27,8 +29,10 @@
 				</li>
 			</ul>
 
-			<a href="#" class="btn btn-sm btn-outline-success mr-1">Підтримати проект</a>
-			<a href="#" class="btn btn-sm btn-outline-warning">Увійти</a>
+			<div class="ml-4">
+				<a href="#" class="btn btn-sm btn-outline-success btn-outline-has-bg text-white mr-3">Підтримати проект</a>
+				<a href="#" class="btn btn-sm btn-outline-warning btn-outline-has-bg text-white">Увійти</a>
+			</div>
 		</div>
 	</div>
 </nav>

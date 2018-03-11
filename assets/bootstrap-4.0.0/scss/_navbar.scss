@@ -170,6 +170,7 @@
           .nav-link {
             padding-right: $navbar-nav-link-padding-x;
             padding-left: $navbar-nav-link-padding-x;
+            font-size: $font-size-sm;
           }
         }
 
@@ -260,6 +261,10 @@
 
 // White links against a dark background
 .navbar-dark {
+  @media (max-width: 992px) {
+    background: $navbar-dark-background;
+  }
+
   .navbar-brand {
     color: $navbar-dark-active-color;
 
@@ -285,7 +290,22 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
+      position: relative;
       color: $navbar-dark-active-color;
+
+      &::before {
+        position: absolute;
+        bottom: 0;
+        left: $navbar-nav-link-padding-x;
+        width: 25px;
+        height: 1px;
+        content: "";
+        background: $yellow;
+
+        @media (max-width: 992px) {
+          left: 0;
+        }
+      }
     }
   }
 
