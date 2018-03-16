@@ -17,20 +17,20 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
+			<ul class="navbar-nav ml-auto pt-5 pt-lg-0 pb-5 pb-lg-0">
+				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0 active">
 					<a class="nav-link" href="#">Головна <span class="sr-only">(Поточна сторінка)</span></a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0">
 					<a class="nav-link" href="#">Про проект</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0">
 					<a class="nav-link" href="#">Пошук по базі</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0">
 					<a class="nav-link" href="#">Волонтерам</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0">
 					<a class="nav-link" href="#">Контакти</a>
 				</li>
 			</ul>
