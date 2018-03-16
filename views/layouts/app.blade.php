@@ -12,7 +12,7 @@
 			<a href="#" class="btn btn-sm btn-outline-warning btn-outline-has-bg text-white"><i class="fas fa-sign-in-alt"></i> Увійти</a>
 		</div>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="btn btn-sm btn-outline-primary btn-outline-has-bg d-xs-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
