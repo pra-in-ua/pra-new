@@ -45,4 +45,34 @@
 
 @yield('content')
 
+<div class="clearfix"></div>
+
+<footer class="bg-dark footer ">
+	<div class="navbar navbar-expand-sm navbar-dark">
+		<div class="container">
+			<a class="navbar-brand d-none d-lg-inline" href="#">
+				<img src="/assets/images/global/logo.png" width="80" alt="">
+			</a>
+			<ul class="navbar-nav pr-auto d-none d-lg-flex">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Про нас <span class="sr-only">(Поточна сторінка)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Контакти</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Правила</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Бібліотека</a>
+				</li>
+			</ul>
+
+			<div class="ml-auto mr-auto mr-lg-0 pt-2 pt-lg-0">
+				<a href="https://runsite.com.ua" target="_blank" class="btn btn-sm btn-outline-primary btn-outline-has-bg text-white">Розробка: ТОВ Рансайт</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
 @endsection

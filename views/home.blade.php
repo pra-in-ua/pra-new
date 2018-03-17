@@ -1,24 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="jumbotron text-center text-white">
+<section class="jumbotron text-center text-white">
 	<h1 class="pt-3 pt-md-5 pt-lg-7 h2"><b>База жителів України<br>1650-1920 рр. народження</b></h1>
 
 	<div class="pt-4 pt-md-5">
-		<div class="row justify-content-sm-center">
-			<div class="col col-sm-4 col-lg-2">
-				<a href="#" class="btn btn-block btn-lg btn-warning">База</a>
+		<div class="container-fluid">
+			<div class="row justify-content-sm-center">
+				<div class="col col-sm-4 col-lg-2">
+					<a href="#" class="btn btn-block btn-lg btn-warning">База</a>
+				</div>
+				<div class="col col-sm-4 col-lg-2">
+					<a href="#" class="btn btn-block btn-lg btn-success">Волонтерам</a>
+				</div>
 			</div>
-			<div class="col col-sm-4 col-lg-2">
-				<a href="#" class="btn btn-block btn-lg btn-success">Волонтерам</a>
-			</div>
-		</div>
-		<div class="row justify-content-sm-center pt-4">
-			<div class="col col-sm-4 col-lg-2">
-				<a href="#" class="btn btn-block btn-lg btn-secondary">Бібліотека</a>
-			</div>
-			<div class="col col-sm-4 col-lg-2">
-				<a href="#" class="btn btn-block btn-lg btn-primary">Тексти</a>
+			<div class="row justify-content-sm-center pt-4">
+				<div class="col col-sm-4 col-lg-2">
+					<a href="#" class="btn btn-block btn-lg btn-secondary">Бібліотека</a>
+				</div>
+				<div class="col col-sm-4 col-lg-2">
+					<a href="#" class="btn btn-block btn-lg btn-primary">Тексти</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -42,5 +44,13 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+<div class="container">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum eius, alias optio ducimus a quae dolores placeat animi molestias quam odio, deserunt commodi maxime tenetur illo sed esse temporibus!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum eius, alias optio ducimus a quae dolores placeat animi molestias quam odio, deserunt commodi maxime tenetur illo sed esse temporibus!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum eius, alias optio ducimus a quae dolores placeat animi molestias quam odio, deserunt commodi maxime tenetur illo sed esse temporibus!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum eius, alias optio ducimus a quae dolores placeat animi molestias quam odio, deserunt commodi maxime tenetur illo sed esse temporibus!</p>
 </div>
+
 @endsection
