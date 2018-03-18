@@ -68,7 +68,7 @@
 				</li>
 			</ul>
 
-			<div class="ml-auto mr-auto mr-lg-0 pt-2 pt-lg-0">
+			<div class="ml-auto mr-auto mr-lg-0 pt-2 pt-lg-1">
 				<a href="https://runsite.com.ua" target="_blank" class="btn btn-sm btn-outline-primary btn-outline-has-bg text-white">Розробка: ТОВ Рансайт</a>
 			</div>
 		</div>
