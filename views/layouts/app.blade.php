@@ -51,7 +51,7 @@
 	<div class="navbar navbar-expand-sm navbar-dark">
 		<div class="container">
 			<a class="navbar-brand d-none d-lg-inline" href="#">
-				<img src="/assets/images/global/logo.png" width="80" alt="">
+				<img src="/assets/images/global/logo-footer.png" width="113" alt="">
 			</a>
 			<ul class="navbar-nav pr-auto d-none d-lg-flex">
 				<li class="nav-item active">
