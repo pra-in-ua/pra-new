@@ -12,11 +12,11 @@
 			<a href="#" class="btn btn-sm btn-outline-warning btn-outline-has-bg text-white"><i class="fas fa-sign-in-alt"></i> Увійти</a>
 		</div>
 
-		<button class="btn btn-sm btn-outline-primary btn-outline-has-bg d-xs-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="btn btn-sm btn-outline-primary btn-outline-has-bg d-xs-block d-lg-none" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse" id="mainNav">
 			<ul class="navbar-nav ml-auto pt-5 pt-lg-0 pb-5 pb-lg-0">
 				<li class="nav-item pt-1 pb-1 pt-lg-0 pb-lg-0 active">
 					<a class="nav-link" href="#">Головна <span class="sr-only">(Поточна сторінка)</span></a>
