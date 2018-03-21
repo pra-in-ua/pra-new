@@ -1,7 +1,7 @@
 @extends('layouts.resources')
 
 @section('app')
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark js-transparent-default" id="mainNavWrapper">
 	<div class="container">
 		<a class="navbar-brand" href="#">
 			<img src="/assets/images/global/logo.png" width="80" alt="">

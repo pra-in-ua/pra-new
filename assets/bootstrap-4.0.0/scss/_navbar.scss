@@ -265,6 +265,11 @@
     background: $navbar-dark-background;
   }
 
+  &.no-transparent {
+    background: $navbar-dark-background;
+    box-shadow: $navbar-dark-shadow;
+  }
+
   .navbar-brand {
     color: $navbar-dark-active-color;
 

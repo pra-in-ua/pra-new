@@ -4462,6 +4462,11 @@ tbody.collapse.show {
   }
 }
 
+.navbar-dark.no-transparent {
+  background: #212121;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
 .navbar-dark .navbar-brand {
   color: #fff;
 }
