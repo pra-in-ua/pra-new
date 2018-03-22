@@ -35,10 +35,27 @@
 				</li>
 			</ul>
 
-			<div class="ml-4 d-none d-lg-block">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img class="img-fluid rounded-circle border-double mr-2" width="35" src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p320x320/13096311_1032160293520192_4640577965936816502_n.jpg?_nc_cat=0&oh=eec7b035e2bdc95ca3d56b19258412b5&oe=5B2CE810" alt="">
+						Ярослав
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#"><i class="fas fa-user-circle"></i> Профіль</a>
+						<a class="dropdown-item" href="#"><i class="fas fa-wrench"></i> Налаштування</a>
+						<a class="dropdown-item" href="#"><i class="fas fa-lock-open text-warning"></i> PRO-Аккаунт</a>
+						<a class="dropdown-item" href="#"><i class="fas fa-at"></i> Мої інтереси</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Вийти</a>
+					</div>
+				</li>
+			</ul>
+
+			{{-- <div class="ml-4 d-none d-lg-block">
 				<a href="#" class="btn btn-sm btn-outline-success btn-outline-has-bg text-white mr-3">Підтримати проект</a>
 				<a href="#" class="btn btn-sm btn-outline-warning btn-outline-has-bg text-white">Увійти</a>
-			</div>
+			</div> --}}
 		</div>
 	</div>
 </nav>

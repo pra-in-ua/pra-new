@@ -10,6 +10,12 @@
 .border-bottom  { border-bottom: $border-width solid $border-color !important; }
 .border-left    { border-left: $border-width solid $border-color !important; }
 
+.border-double         { border: $border-width * 2 solid $border-color !important; }
+.border-double-top     { border-top: $border-width * 2 solid $border-color !important; }
+.border-double-right   { border-right: $border-width * 2 solid $border-color !important; }
+.border-double-bottom  { border-bottom: $border-width * 2 solid $border-color !important; }
+.border-double-left    { border-left: $border-width * 2 solid $border-color !important; }
+
 .border-0        { border: 0 !important; }
 .border-top-0    { border-top: 0 !important; }
 .border-right-0  { border-right: 0 !important; }

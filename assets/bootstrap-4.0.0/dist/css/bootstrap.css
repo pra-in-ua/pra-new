@@ -6297,6 +6297,26 @@ button.bg-dark:focus {
   border-left: 1px solid #dee2e6 !important;
 }
 
+.border-double {
+  border: 2px solid #dee2e6 !important;
+}
+
+.border-double-top {
+  border-top: 2px solid #dee2e6 !important;
+}
+
+.border-double-right {
+  border-right: 2px solid #dee2e6 !important;
+}
+
+.border-double-bottom {
+  border-bottom: 2px solid #dee2e6 !important;
+}
+
+.border-double-left {
+  border-left: 2px solid #dee2e6 !important;
+}
+
 .border-0 {
   border: 0 !important;
 }
