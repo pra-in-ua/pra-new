@@ -42,12 +42,12 @@
 						Ярослав
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#"><i class="fas fa-user-circle"></i> Профіль</a>
-						<a class="dropdown-item" href="#"><i class="fas fa-wrench"></i> Налаштування</a>
-						<a class="dropdown-item" href="#"><i class="fas fa-lock-open text-warning"></i> PRO-Аккаунт</a>
-						<a class="dropdown-item" href="#"><i class="fas fa-at"></i> Мої інтереси</a>
+						<a class="dropdown-item" href="#"><small><i class="fas fa-user-circle"></i> Профіль</small></a>
+						<a class="dropdown-item" href="#"><small><i class="fas fa-wrench"></i> Налаштування</small></a>
+						<a class="dropdown-item" href="#"><small><i class="fas fa-lock-open text-warning"></i> PRO-Аккаунт</small></a>
+						<a class="dropdown-item" href="#"><small><i class="fas fa-at"></i> Мої інтереси</small></a>
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Вийти</a>
+						<a class="dropdown-item" href="#"><small><i class="fas fa-sign-out-alt"></i> Вийти</small></a>
 					</div>
 				</li>
 			</ul>
